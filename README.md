@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/ogp.png" alt="AntiCrow Banner" width="100%" />
+</p>
+
 # 🐦‍⬛ AntiCrow
 
 ![Version](https://img.shields.io/badge/version-0.1.8-blue)
