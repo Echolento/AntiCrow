@@ -171,4 +171,4 @@ Capture and send a screenshot of the current screen to Discord.
 
 ### `/update`
 
-Update AntiCrow to the latest version. Downloads the latest VSIX from Cloudflare R2 and installs it automatically.
+Update AntiCrow to the latest version. Downloads and installs the latest version automatically.

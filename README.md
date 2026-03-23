@@ -98,7 +98,9 @@ AntiCrow acts as a bridge between Discord and Antigravity.
 
 ### 3️⃣ Install the Extension
 
-Install from [OpenVSX Marketplace](https://open-vsx.org/extension/lucianlamp/anti-crow), or search for **"AntiCrow"** in the Antigravity extension marketplace.
+Search for **"AntiCrow"** in the Antigravity extension marketplace and click **Install**.
+
+Or install from the [OpenVSX Marketplace](https://open-vsx.org/extension/lucianlamp/anti-crow).
 
 ### 4️⃣ Initial Configuration
 
