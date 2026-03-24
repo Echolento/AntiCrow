@@ -14,7 +14,7 @@
 
 Send a natural language message from Discord on your phone → Antigravity executes it automatically → Results are sent back to Discord 🚀
 
-> 📖 [日本語ドキュメント](https://anticrow.gitbook.io/ja)
+> 📖 [日本語版 README](README.ja.md)
 
 ---
 
