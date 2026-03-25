@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-03-25
+
 ### Changed
 
 - License changed from MIT to PolyForm Noncommercial 1.0.0 (personal/noncommercial use free, commercial use prohibited)
