@@ -93,7 +93,7 @@
         },
         "antiCrow.language": {
           "type": "string",
-          "default": "ja",
+          "default": "en",
           "enum": [
             "ja",
             "en"

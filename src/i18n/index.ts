@@ -12,7 +12,7 @@ import { messages as enMessages, PROMPT_RULES_MD as enPromptRules } from './en';
 // 言語定義
 // ---------------------------------------------------------------------------
 
-export type Language = 'ja' | 'en';
+export type Language = 'en' | 'ja';
 
 // メッセージの値は string もしくは string[] (dayNames 等)
 type MessageMap = Record<string, string | readonly string[]>;
@@ -40,7 +40,7 @@ function getCurrentLanguage(): Language {
         const { getLanguage } = require('../configHelper');
         return getLanguage() as Language;
     } catch {
-        return 'ja';
+        return 'en';
     }
 }
 
@@ -59,7 +59,7 @@ function getCurrentLanguage(): Language {
  */
 export function t(key: MessageKey, ...args: (string | number)[]): string {
     const lang = getCurrentLanguage();
-    const msgs = messagesMap[lang] || messagesMap.ja;
+    const msgs = messagesMap[lang] || messagesMap.en;
     const value = msgs[key];
 
     if (value === undefined) {
@@ -85,7 +85,7 @@ export function t(key: MessageKey, ...args: (string | number)[]): string {
  */
 export function tArray(key: MessageKey): string[] {
     const lang = getCurrentLanguage();
-    const msgs = messagesMap[lang] || messagesMap.ja;
+    const msgs = messagesMap[lang] || messagesMap.en;
     const value = msgs[key];
 
     if (Array.isArray(value)) {
@@ -104,7 +104,7 @@ export function tArray(key: MessageKey): string[] {
  */
 export function getLocalizedPromptRules(): string {
     const lang = getCurrentLanguage();
-    return promptRulesMap[lang] || promptRulesMap.ja;
+    return promptRulesMap[lang] || promptRulesMap.en;
 }
 
 // ---------------------------------------------------------------------------
